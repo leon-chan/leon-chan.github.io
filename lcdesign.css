@@ -2,6 +2,21 @@
   font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;}
 
 
+.lcd-layout__header {
+	background-color: rgba(255, 255, 255, 0.3);
+	-webkit-backdrop-filter: saturate(100%) blur(10px);
+	backdrop-filter: saturate(180%) blur(20px);
+  color: rgb(63,81,181);
+  box-shadow: 0 2px 2px 0;}  
+  
+ 
+ 
+.lcd-layout__header .mdl-layout__drawer-button {
+    position: absolute;
+    color: rgb(0,0,0);
+    background-color: inherit; }  
+
+
 .lcd-layout__drawer {
   box-shadow: 0 0 0 0;
   border-right: 0px solid rgb(224,224,224);
