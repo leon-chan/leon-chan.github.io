@@ -1,0 +1,71 @@
+.lcd-navigation {
+  font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;}
+
+
+.lcd-layout__drawer {
+  box-shadow: 0 0 0 0;
+  border-right: 0px solid rgb(224,224,224);
+  background: rgb(254,254,254);}
+
+.lcd-layout__title,
+.lcd-layout-title {
+    font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    box-sizing: border-box; }
+
+
+/* lcd-card  background: url('https://cdn-images-1.medium.com/max/2000/1*8lz2kG3qEW3R1y_K7owIKg.png') center / cover; */	
+	
+.cld-card__image {
+	 -webkit-align-items: center;
+	      -ms-flex-align: center;
+	          align-items: center;
+	 color: #fff;
+	 height: 176px;
+	 display: block;
+	 display: -webkit-flex;
+	 display: -ms-flexbox;
+	 display: flex;
+	 -webkit-justify-content: stretch;
+	      -ms-flex-pack: stretch;
+	          justify-content: stretch;
+	 line-height: normal;
+	 padding: 16px 16px;
+	 -webkit-perspective-origin: 165px 56px;
+	          perspective-origin: 165px 56px;
+	 -webkit-transform-origin: 165px 56px;
+	          transform-origin: 165px 56px;
+	 box-sizing: border-box; 
+	 background: url('https://cdn-images-1.medium.com/max/2000/1*8lz2kG3qEW3R1y_K7owIKg.png') center / cover;}
+	  
+.cld-card__title-text {
+	 color: rgba(0,0,0, 0.6);
+	 font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;
+	 font-size: 1rem;
+	 line-height: 20px;
+	 overflow: hidden;
+	 padding: 8px 16px 0px 0px;
+	 width: 90%; }
+.cld-card__supporting-text {
+	 color: rgba(0,0,0, 0.3);
+	 font-family: "SFmono", "Roboto", "Helvetica", "Arial", sans-serif;
+	 font-size: 12px;
+	 line-height: 16px;
+	 overflow: hidden;
+	 padding: 8px 16px 16px 0px;
+	 width: 90%; }
+		  		  
+		  
+	
+	
+	
+	
+	
+.lcd-card-wide.mdl-card {
+
+	border-radius: 0px;
+}
