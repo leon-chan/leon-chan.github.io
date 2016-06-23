@@ -1,13 +1,14 @@
 .lcd-navigation {
   font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;}
-
+  
 
 .lcd-layout__header {
-	background-color: rgba(255, 255, 255, 0.3);
-	-webkit-backdrop-filter: saturate(100%) blur(10px);
+	background-color: rgba(255, 255, 255, 0.7);
+/*	-webkit-backdrop-filter: saturate(100%) blur(10px);
 	backdrop-filter: saturate(180%) blur(20px);
-  color: rgb(63,81,181);
-  box-shadow: 0 2px 2px 0;}  
+	inline-block
+  */
+  box-shadow:  none;}  
   
  
  
@@ -31,7 +32,8 @@
     letter-spacing: -0.01em;
     font-weight: 400;
     box-sizing: border-box; }
-
+	
+	
 
 /* lcd-card  background: url('https://cdn-images-1.medium.com/max/2000/1*8lz2kG3qEW3R1y_K7owIKg.png') center / cover; */	
 	
@@ -55,7 +57,7 @@
 	 -webkit-transform-origin: 165px 56px;
 	          transform-origin: 165px 56px;
 	 box-sizing: border-box; 
-	 background: url('https://cdn-images-1.medium.com/max/2000/1*8lz2kG3qEW3R1y_K7owIKg.png') center / cover;}
+	 background: url('http://images.apple.com/v/iphone-6s/b/overview/accessories_large_2x.jpg') center / cover;}
 	  
 .cld-card__title-text {
 	 color: rgba(0,0,0, 0.6);
