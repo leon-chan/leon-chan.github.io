@@ -1,6 +1,9 @@
 .lcd-navigation {
   font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;}
   
+.lcd-layout__drawer .lcd-navigation .mdl-navigation__link {
+	padding: 8px 40px;}
+  
 
 .lcd-layout__header {
 	
