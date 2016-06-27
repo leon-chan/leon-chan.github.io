@@ -1,8 +1,12 @@
 .lcd-navigation {
   font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;}
   
+.lcd-layout__drawer .lcd-navigation .mdl-navigation__link {
+	padding: 8px 40px;}
+  
 
 .lcd-layout__header {
+	
 	background-color: rgba(255, 255, 255, 0.7);
 /*	-webkit-backdrop-filter: saturate(100%) blur(10px);
 	backdrop-filter: saturate(180%) blur(20px);
