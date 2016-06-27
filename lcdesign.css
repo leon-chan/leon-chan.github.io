@@ -1,47 +1,44 @@
-.lcd-navigation {
-  font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;}
-  
-.lcd-layout__drawer .lcd-navigation .mdl-navigation__link {
-	padding: 8px 40px;}
-  
-
-.lcd-layout__header {
+.lcd-logo-image {
+	width:40px;
+	height:40px;
+	vertical-align: middle;}
+	
+	
+.lcd-header {
 	
 	background-color: rgba(255, 255, 255, 0.7);
 /*	-webkit-backdrop-filter: saturate(100%) blur(10px);
 	backdrop-filter: saturate(180%) blur(20px);
-	inline-block
-  */
-  box-shadow:  none;}  
-  
- 
- 
-.lcd-layout__header .mdl-layout__drawer-button {
+	inline-block */
+  	box-shadow:  none;} 
+	
+.lcd-header .mdl-layout__drawer-button {
     position: absolute;
     color: rgb(0,0,0);
-    background-color: inherit; }  
+    background-color: inherit; }  	
+	
 
+.lcd-drawer {
+  	box-shadow: 0 0 0 0;
+	border-right: 0px solid rgb(224,224,224);
+	background: rgb(254,254,254);}
 
-.lcd-layout__drawer {
-  box-shadow: 0 0 0 0;
-  border-right: 0px solid rgb(224,224,224);
-  background: rgb(254,254,254);}
+.lcd-drawer .mdl-navigation .mdl-navigation__link {
+	padding: 8px 40px;
+	font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;}
 
-.lcd-layout__title,
-.lcd-layout-title {
-    font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    font-weight: 400;
-    box-sizing: border-box; }
 	
 	
 
 /* lcd-card  background: url('https://cdn-images-1.medium.com/max/2000/1*8lz2kG3qEW3R1y_K7owIKg.png') center / cover; */	
 	
-.cld-card__image {
+	
+.lcd-card-portfolio {}
+	
+.lcd-card-portfolio .mdl-card {
+	border-radius: 0px;}
+	
+.lcd-card-portfolio .mdl-card__image {
 	 -webkit-align-items: center;
 	      -ms-flex-align: center;
 	          align-items: center;
@@ -63,7 +60,7 @@
 	 box-sizing: border-box; 
 	 background: url('http://images.apple.com/v/iphone-6s/b/overview/accessories_large_2x.jpg') center / cover;}
 	  
-.cld-card__title-text {
+.lcd-card__title-text {
 	 color: rgba(0,0,0, 0.6);
 	 font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;
 	 font-size: 1rem;
@@ -71,7 +68,7 @@
 	 overflow: hidden;
 	 padding: 8px 16px 0px 0px;
 	 width: 90%; }
-.cld-card__supporting-text {
+.lcd-card__supporting-text {
 	 color: rgba(0,0,0, 0.3);
 	 font-family: "SFmono", "Roboto", "Helvetica", "Arial", sans-serif;
 	 font-size: 12px;
@@ -86,7 +83,5 @@
 	
 	
 	
-.lcd-card-wide.mdl-card {
 
-	border-radius: 0px;
 }
