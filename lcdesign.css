@@ -25,9 +25,19 @@
 
 .lcd-drawer .mdl-navigation .mdl-navigation__link {
 	padding: 8px 40px;
-	font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;}
-
+	font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;
+	color:#000000;
+	opacity:0.4;}
 	
+	
+.lcd-drawer .mdl-navigation .mdl-navigation__link:hover {
+	background-color: #ffffff!important;
+	opacity:1;}
+	
+	
+
+
+
 	
 
 /* lcd-card  background: url('https://cdn-images-1.medium.com/max/2000/1*8lz2kG3qEW3R1y_K7owIKg.png') center / cover; */	
