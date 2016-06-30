@@ -4,13 +4,20 @@
 	vertical-align: middle;}
 	
 	
-.lcd-header {
-	
+.lcd-header {	
+	box-shadow: none;
 	background-color: rgba(255, 255, 255, 0.7);
-/*	-webkit-backdrop-filter: saturate(100%) blur(10px);
-	backdrop-filter: saturate(180%) blur(20px);
-	inline-block */
-  	box-shadow:  none;} 
+	-webkit-backdrop-filter: saturate(100%) blur(20px);
+	backdrop-filter: saturate(100%) blur(20px);} 
+	
+	
+	
+.mdl-layout--fixed-header>.lcd-header {
+	position: fixed;}
+	
+	
+.mdl-layout--fixed-header .page-content {
+	margin-top:48px;}
 	
 	
 .lcd-header .mdl-layout__header-row {
@@ -22,7 +29,7 @@
 .lcd-header .mdl-layout__drawer-button {
     position: absolute;
     color: rgb(0,0,0);
-    background-color: inherit; }  	
+    background-color:rgba(0,0,0,0); }  	
 	
 
 .lcd-drawer {
