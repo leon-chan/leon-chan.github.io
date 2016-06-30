@@ -12,6 +12,13 @@
 	inline-block */
   	box-shadow:  none;} 
 	
+	
+.lcd-header .mdl-layout__header-row {
+	padding: 0 56px 0 56px; }
+  
+  
+  
+	
 .lcd-header .mdl-layout__drawer-button {
     position: absolute;
     color: rgb(0,0,0);
@@ -22,6 +29,13 @@
   	box-shadow: 0 0 0 0;
 	border-right: 0px solid rgb(224,224,224);
 	background: rgb(254,254,254);}
+	
+	
+ @media screen and (max-width: 1024px) {
+      .lcd-drawer > .mdl-layout__title,
+      .lcd-drawer > .mdl-layout-title {
+        padding-left: 40px; 
+		height:100px;} }
 
 .lcd-drawer .mdl-navigation .mdl-navigation__link {
 	padding: 8px 40px;
