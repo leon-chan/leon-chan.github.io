@@ -1,7 +1,15 @@
 .lcd-logo-image {
-	width:40px;
-	height:40px;
-	vertical-align: middle;}
+	display:block;
+	width:162px;
+	height:24px;
+	vertical-align: middle;
+	background-image: url('Assets/lcdesign@2x.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+	margin: 20px 0 20px 0; }
+	
 	
 	
 .lcd-header {	
@@ -41,11 +49,18 @@
  @media screen and (max-width: 1024px) {
       .lcd-drawer > .mdl-layout__title,
       .lcd-drawer > .mdl-layout-title {
-        padding-left: 40px; 
+        padding-left: 30px; 
+		height:64px;} }
+		
+		
+ @media screen and (min-width: 1025px) {
+      .lcd-drawer > .mdl-layout__title,
+      .lcd-drawer > .mdl-layout-title {
+        padding-left: 30px; 
 		height:64px;} }
 
 .lcd-drawer .mdl-navigation .mdl-navigation__link {
-	padding: 8px 40px;
+	padding: 8px 30px;
 	font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;
 	color:#000000;
 	opacity:0.4;}
