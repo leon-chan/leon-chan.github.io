@@ -9,81 +9,101 @@
 	background-size: contain;
 	box-sizing: border-box;
 	margin: 20px 0 20px 0; }
-	
-	
-	
-.lcd-header {	
+
+
+
+.lcd-header {
 	box-shadow: none;
 	background-color: rgba(255, 255, 255, 0.7);
 	-webkit-backdrop-filter: saturate(100%) blur(20px);
-	backdrop-filter: saturate(100%) blur(20px);} 
+	backdrop-filter: saturate(100%) blur(20px);}
 	
 	
-	
+
+.lcd-layout {}
+
+
 .mdl-layout--fixed-header>.lcd-header {
 	position: fixed;}
-	
-	
+
+
 .mdl-layout--fixed-header .page-content {
 	margin-top:48px;}
-	
-	
+
+
 .lcd-header .mdl-layout__header-row {
 	padding: 0 56px 0 56px; }
-  
-  
-  
-	
+
+
+
+
 .lcd-header .mdl-layout__drawer-button {
     position: absolute;
     color: rgb(0,0,0);
-    background-color:rgba(0,0,0,0); }  	
+    background-color:rgba(0,0,0,0); }
 	
+	
+	
+
 
 .lcd-drawer {
   	box-shadow: 0 0 0 0;
 	border-right: 0px solid rgb(224,224,224);
 	background: rgb(254,254,254);}
-	
-	
+
+
  @media screen and (max-width: 1024px) {
       .lcd-drawer > .mdl-layout__title,
       .lcd-drawer > .mdl-layout-title {
-        padding-left: 30px; 
+        padding-left: 30px;
 		height:64px;} }
-		
-		
+
+
  @media screen and (min-width: 1025px) {
       .lcd-drawer > .mdl-layout__title,
       .lcd-drawer > .mdl-layout-title {
-        padding-left: 30px; 
+        padding-left: 30px;
 		height:64px;} }
+		
+		
+
+.lcd-drawer.mdl-layout__drawer {
+	transition-duration: 0.4s;}
+
+
+.lcd-layout .mdl-layout__obfuscator {
+	transition-duration: 0.4s;}
+    .lcd-layout  .mdl-layout__obfuscator.is-visible {
+		background-color: rgba(0, 0, 0, 0.3);
+		visibility: visible; }
+
+
 
 .lcd-drawer .mdl-navigation .mdl-navigation__link {
 	padding: 8px 30px;
 	font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;
 	color:#000000;
 	opacity:0.4;}
-	
-	
+
+
 .lcd-drawer .mdl-navigation .mdl-navigation__link:hover {
 	background-color: #ffffff!important;
 	opacity:1;}
-	
-	
 
 
 
-	
 
-/* lcd-card  background: url('https://cdn-images-1.medium.com/max/2000/1*8lz2kG3qEW3R1y_K7owIKg.png') center / cover; */	
-	
-	
+
+
+
+/* lcd-card  background: url('https://cdn-images-1.medium.com/max/2000/1*8lz2kG3qEW3R1y_K7owIKg.png') center / cover; */
+
+
 .lcd-card-portfolio {}
-	
+
 .lcd-card-portfolio .mdl-card {
-	border-radius: 0px;}
-	
+	border-radius: none !important;}
+
 .lcd-card-portfolio .mdl-card__image {
 	 -webkit-align-items: center;
 	      -ms-flex-align: center;
@@ -103,9 +123,9 @@
 	          perspective-origin: 165px 56px;
 	 -webkit-transform-origin: 165px 56px;
 	          transform-origin: 165px 56px;
-	 box-sizing: border-box; 
+	 box-sizing: border-box;
 	 background: url('http://images.apple.com/v/iphone-6s/b/overview/accessories_large_2x.jpg') center / cover;}
-	  
+
 .lcd-card__title-text {
 	 color: rgba(0,0,0, 0.6);
 	 font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;
@@ -122,12 +142,12 @@
 	 overflow: hidden;
 	 padding: 8px 16px 16px 0px;
 	 width: 90%; }
-		  		  
-		  
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 
 }
