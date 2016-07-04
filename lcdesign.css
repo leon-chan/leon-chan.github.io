@@ -73,9 +73,6 @@
 
 .lcd-layout .mdl-layout__obfuscator {
 	transition-duration: 0.4s;}
-    .lcd-layout  .mdl-layout__obfuscator.is-visible {
-		background-color: rgba(0, 0, 0, 0.3);
-		visibility: visible; }
 
 
 
