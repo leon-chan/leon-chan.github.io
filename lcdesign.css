@@ -121,6 +121,7 @@
 	 -webkit-transform-origin: 165px 56px;
 	          transform-origin: 165px 56px;
 	 box-sizing: border-box;
+	 background-color:#F3F3F3;
 	 background: url('http://images.apple.com/v/iphone-6s/b/overview/accessories_large_2x.jpg') center / cover;}
 
 .lcd-card__title-text {
