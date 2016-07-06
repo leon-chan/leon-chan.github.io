@@ -96,10 +96,9 @@
 /* lcd-card  background: url('https://cdn-images-1.medium.com/max/2000/1*8lz2kG3qEW3R1y_K7owIKg.png') center / cover; */
 
 
-.lcd-card-portfolio {}
+.lcd-card-portfolio {
+	border-radius: 0px;}
 
-.lcd-card-portfolio .mdl-card {
-	border-radius: none !important;}
 
 .lcd-card-portfolio .mdl-card__image {
 	 -webkit-align-items: center;
@@ -142,10 +141,17 @@
 	 width: 90%; }
 
 
-
-
-
-
-
-
+.lcd-card-photos {
+	
+	border-radius: 0px;
+	background-color:#f3f3f6;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
 }
+
+
+
+
+
