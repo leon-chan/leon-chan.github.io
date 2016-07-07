@@ -1,3 +1,11 @@
+.lcd-centerd-bodies {
+	max-width: 1440px;
+	margin:auto;}
+
+.mdl-layout__container {
+	position: relative!important;}
+
+
 .lcd-logo-image {
 	display:block;
 	width:162px;
@@ -17,8 +25,8 @@
 	background-color: rgba(255, 255, 255, 0.7);
 	-webkit-backdrop-filter: saturate(100%) blur(20px);
 	backdrop-filter: saturate(100%) blur(20px);}
-	
-	
+
+
 
 .lcd-layout {}
 
@@ -41,9 +49,9 @@
     position: absolute;
     color: rgb(0,0,0);
     background-color:rgba(0,0,0,0); }
-	
-	
-	
+
+
+
 
 
 .lcd-drawer {
@@ -64,8 +72,8 @@
       .lcd-drawer > .mdl-layout-title {
         padding-left: 30px;
 		height:64px;} }
-		
-		
+
+
 
 .lcd-drawer.mdl-layout__drawer {
 	transition-duration: 0.4s;}
@@ -142,16 +150,14 @@
 
 
 .lcd-card-photos {
-	
+
 	border-radius: 0px;
 	background-color:#f3f3f6;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
 }
 
-
-
-
-
+.lcd-card-photos:hover {
+	opacity: 80%;
+}
