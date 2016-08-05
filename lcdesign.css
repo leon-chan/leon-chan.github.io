@@ -159,5 +159,11 @@
 }
 
 .lcd-card-photos:hover {
-	opacity: 80%;
+	background-opacity: 80%;
 }
+
+	.lcd-card-photos img {
+        height: 100%;
+        width: 100%;
+		
+		position: absolute;}
