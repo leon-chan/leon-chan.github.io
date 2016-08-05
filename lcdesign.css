@@ -1,3 +1,11 @@
+.lcd-centerd-bodies {
+	max-width: 1440px;
+	margin:auto;}
+
+.mdl-layout__container {
+	position: relative!important;}
+
+
 .lcd-logo-image {
 	display:block;
 	width:162px;
@@ -17,8 +25,8 @@
 	background-color: rgba(255, 255, 255, 0.7);
 	-webkit-backdrop-filter: saturate(100%) blur(20px);
 	backdrop-filter: saturate(100%) blur(20px);}
-	
-	
+
+
 
 .lcd-layout {}
 
@@ -41,9 +49,9 @@
     position: absolute;
     color: rgb(0,0,0);
     background-color:rgba(0,0,0,0); }
-	
-	
-	
+
+
+
 
 
 .lcd-drawer {
@@ -64,8 +72,8 @@
       .lcd-drawer > .mdl-layout-title {
         padding-left: 30px;
 		height:64px;} }
-		
-		
+
+
 
 .lcd-drawer.mdl-layout__drawer {
 	transition-duration: 0.4s;}
@@ -96,10 +104,9 @@
 /* lcd-card  background: url('https://cdn-images-1.medium.com/max/2000/1*8lz2kG3qEW3R1y_K7owIKg.png') center / cover; */
 
 
-.lcd-card-portfolio {}
+.lcd-card-portfolio {
+	border-radius: 0px;}
 
-.lcd-card-portfolio .mdl-card {
-	border-radius: none !important;}
 
 .lcd-card-portfolio .mdl-card__image {
 	 -webkit-align-items: center;
@@ -121,6 +128,7 @@
 	 -webkit-transform-origin: 165px 56px;
 	          transform-origin: 165px 56px;
 	 box-sizing: border-box;
+	 background-color:#F3F3F3;
 	 background: url('http://images.apple.com/v/iphone-6s/b/overview/accessories_large_2x.jpg') center / cover;}
 
 .lcd-card__title-text {
@@ -141,10 +149,21 @@
 	 width: 90%; }
 
 
+.lcd-card-photos {
 
-
-
-
-
-
+	border-radius: 0px;
+	background-color:#f3f3f6;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
+.lcd-card-photos:hover {
+	background-opacity: 80%;
+}
+
+	.lcd-card-photos img {
+        height: 100%;
+        width: 100%;
+		
+		position: absolute;}
