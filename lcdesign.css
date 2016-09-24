@@ -17,11 +17,12 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 	box-sizing: border-box;
-	margin: 20px 0 20px 0; }
+	margin: 12px 0 8px 0; }
 
 
 
 .lcd-header {
+	min-height: 44px;
 	box-shadow: none;
 	background-color: rgba(255, 255, 255, 0.7);
 	-webkit-backdrop-filter: saturate(100%) blur(20px);
@@ -31,25 +32,37 @@
 
 .lcd-layout {}
 
+	.lcd-layout>.mdl-layout__content {
+ 	 	margin-right: 15px;}
+
+	@media screen and (max-width: 1024px) {
+			 .lcd-layout>.mdl-layout__content {
+				 margin-right: 0;
+				 } }
+
 
 .mdl-layout--fixed-header>.lcd-header {
 	position: fixed;}
 
 
 .mdl-layout--fixed-header .page-content {
-	margin-top:48px;}
+	margin-top:44px;}
 
 
 .lcd-header .mdl-layout__header-row {
-	padding: 0 56px 0 56px; }
+	height: 44px;
+	padding: 0 44px 0 44px; }
 
 
 
 
 .lcd-header .mdl-layout__drawer-button {
-    position: absolute;
-    color: rgb(0,0,0);
-    background-color:rgba(0,0,0,0); }
+	margin: 0;
+	height: 44px;
+	width: 44px;
+  position: absolute;
+  color: rgb(0,0,0);
+  background-color:rgba(0,0,0,0); }
 
 
 
@@ -77,6 +90,10 @@
 		height:64px;} }
 
 
+.lcd-drawer .lcd-logo-image {
+	margin: 20px 0 20px 0; }
+
+
 
 .lcd-drawer.mdl-layout__drawer {
 	transition-duration: 0.4s;}
@@ -86,13 +103,12 @@
 	transition-duration: 0.4s;}
 
 .lcd-drawer .mdl-navigation{
-	flex-grow:1;
-	}
+	flex-grow:1;}
 
 
 .lcd-drawer .mdl-navigation .mdl-navigation__link {
 	padding: 8px 30px;
-	font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "SFmono","Roboto Mono" "Roboto", "Helvetica", "Arial", sans-serif !important;
 	color:#000000;
 	opacity:0.4;}
 
