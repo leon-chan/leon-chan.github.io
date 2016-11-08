@@ -147,7 +147,7 @@ body {background-color:#FAFAFA;
 .lcd-card-portfolio .mdl-card__image {
 	 -webkit-align-items: center;
 	      -ms-flex-align: center;
-	          align-items: center;
+	         align-items: center;
 	 color: #fff;
 	 height: 240px;
 	 display: block;
@@ -155,14 +155,14 @@ body {background-color:#FAFAFA;
 	 display: -ms-flexbox;
 	 display: flex;
 	 -webkit-justify-content: stretch;
-	      -ms-flex-pack: stretch;
-	          justify-content: stretch;
+	      		 -ms-flex-pack: stretch;
+	         justify-content: stretch;
 	 line-height: normal;
 
 	 -webkit-perspective-origin: 165px 56px;
-	          perspective-origin: 165px 56px;
+	         perspective-origin: 165px 56px;
 	 -webkit-transform-origin: 165px 56px;
-	          transform-origin: 165px 56px;
+	         transform-origin: 165px 56px;
 	 box-sizing: border-box;
 	 background-color:#F3F3F3;
 	 background: url('http://images.apple.com/v/iphone-6s/b/overview/accessories_large_2x.jpg') center / cover;}
